@@ -1,0 +1,455 @@
+/* contact and info section  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: burlywood;
+  width: 100vw;
+  font-size: 10px;
+  /* padding: 4%; */
+  overflow-x: hidden;
+}
+.janebake {
+  background-color: rgb(6, 71, 124);
+  width: 15vw;
+  height: 15.5vh;
+  margin-left: 2rem;
+  padding-left: 2.5rem;
+  padding-top: 2.2rem;
+}
+.janebake a {
+  color: aliceblue;
+  font-size: 1.2rem;
+  font-family: cursive;
+}
+header {
+  background-color: white;
+  font-size: 1.2rem;
+  height: 100px;
+  padding-left: 1rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  margin: 0 20px;
+  text-align: center;
+}
+
+nav ul li a{
+  color:rgb(131, 40, 40);
+  font-size: 1.7rem
+  
+}
+
+nav ul li a span {
+  display: block;
+}
+
+nav div span {
+  display: block;
+  padding-right: 2rem;
+}
+.contact {
+  color: burlywood;
+  font-family: cursive;
+  padding-right: 3rem;
+}
+
+nav span {
+  font-style: italic;
+  color: burlywood;
+}
+
+li {
+  list-style: none;
+}
+
+main {
+  height: 500px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+img {
+  width: 100vw;
+  height: 85vh;
+  position: absolute;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  color:rgb(126, 54, 54);
+  font-style: italic;
+}
+a {
+  text-decoration: none;
+}
+div picture {
+  width: 1vw;
+  height: 5vh;
+}
+section {
+  display: flex;
+  width: 100vwa;
+  height: 70vh;
+  font-family: cursive;
+  background-color: white;
+  height: 15rem;
+}
+
+/* info on products and history  */
+.circle {
+  width: 17rem;
+  height: 18rem;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  color: rgb(204, 15, 15);
+  transform: rotate(-11deg);
+  font-family: fantasy;
+}
+
+.offer {
+  display: block;
+  height: 70vh;
+  justify-content: space-evenly;
+}
+hr {
+  width: 5rem;
+  height: 5px;
+  background-color: burlywood;
+  margin: 0 auto;
+  border: none;
+  position: center;
+}
+
+.offer h1 {
+  font-size: 2rem;
+}
+
+.offer div {
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.px1 {
+  background-image: url(./c1.jpg);
+}
+
+.px2 {
+  background-image: url(./cake2.jpg);
+}
+
+.px3 {
+  background-image: url(./c3.jpg);
+}
+
+.our-story .story {
+  font-family: cursive;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.story {
+  background-color: rgb(39, 110, 138);
+}
+.story h1 {
+  color: blanchedalmond;
+}
+.story p {
+  margin-top: 1rem;
+  padding: 0 2rem;
+  color: blanchedalmond;
+}
+
+.our-story {
+  width: 100%;
+  height: 70vh;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+.story-img {
+  width: 50%;
+  background-image: url(./os.jpg);
+  background-position: center;
+}
+
+.restaurant-menu {
+  display: block;
+  background-color: rgb(247, 244, 241);
+  height: 70vh;
+}
+
+.restaurant-menu h1 {
+  font-size: 2rem;
+}
+.restaurant-menu .menu-pic div {
+  color: white;
+  font-size: 1.5rem;
+
+}
+.menu-pic {
+  height: 25rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(247, 244, 241);
+}
+
+.picmenu {
+  height: 80%;
+  width: 20%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.menu-pic1 {
+  background-image: url(./restm.jpg);
+}
+.menu-pic2 {
+  background-image: url(./restmm.jpg);
+}
+.menu-pic3 {
+  background-image: url(./resttm.jpg);
+}
+
+.bread {
+  display: block;
+  height: 80vh;
+  will-change: 20px;
+  background-size: contain;
+  background-color: blue;
+}
+
+.dp {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.our-bread {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+  height: 40rem;
+}
+
+.our-bread h1 {
+  font-size: 2rem;
+}
+
+.our-bread hr {
+  margin-bottom: 1.5rem;
+  width: 5rem;
+  height: 5px;
+  background-color: burlywood;
+  border: none;
+  position: center;
+}
+.bread-section {
+  width: 100vw;
+  height: 900%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 7rem;
+  padding-top: 3rem;
+}
+.bread-card {
+  width: 25vw;
+  height: 50vh;
+  padding-left: 7rem;
+  /* color: red; */
+}
+
+.newbread {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-color: red;
+
+}
+
+.bread-text h3 {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+.bread-card p {
+  font-size: 1.1rem;
+}
+
+.bread1 {
+  background-image: url(./O.B.jpg);
+}
+.bread2 {
+  background-image: url(./O.B1.jpg);
+}
+.bread3 {
+  background-image: url(./O.B3.jpg);
+}
+.bread4 {
+  background-image: url(./O.B4.jpg);
+}
+.bread-card button {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  width: 5rem;
+}
+
+.btn-wrap {
+  background-color:white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.btn-wrap button {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  font-style: normal;
+  background-color: white;
+  color: burlywood;
+}
+
+.news {
+  background-color: rgb(192, 191, 191);
+  height: 450px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.news-img {
+  width: 100%;
+  height: 100%;
+  background-image: url("/down.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.news div p {
+  font-style: italic;
+  font-size: 20px;
+  background-position: center;
+}
+
+/* subscriptionsection */
+
+.subscription {
+  font-family: cursive;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(235, 235, 235);
+}
+.subscription h1 {
+  width: 100%;
+  height: 5rem;
+  font-size: 2.5rem;
+  color: rgb(110, 89, 62);
+}
+.subscription p {
+  font-family: cursive;
+  display: flex;
+  flex-direction: column;
+  color: rgb(110, 89, 62);
+  padding-left: 1rem;
+  font-size: 2rem;
+}
+
+.mailbuttom input{
+  border: none;
+  font-size: 1.5rem;
+  outline: none;
+  padding: 0.5rem;
+  font-family: cursive;
+}
+.mailbuttom button {
+  border: none;
+  font-size: 1.5rem;
+  outline: none;
+  padding: 0.5rem;
+  font-family: cursive;
+}
+
+.mailbuttom {
+  border: 2px solid rgb(139, 111, 111);
+  border-radius: 4px;
+}
+.mailbuttom button {
+  background-color: rgb(139, 111, 111);
+}
+
+/* get intouch  */
+footer {
+  background-color: rgb(75, 67, 67);
+  width: 100vw;
+  height: 55vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer a {
+  color: white;
+}
+
+footer h1 {
+  color: white;
+}
+
+.end {
+  width: 22vw;
+  font-family: cursive;
+  font-size: 3rem;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.endinfo ul {
+  height: 100%;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.lastct {
+  font-size: 1.5rem;
+}
+
+.lasttct {
+  font-size: 1.5rem;
+  display: flex;
+}
+
+.lastct ul:last-child {
+  margin-top: 2rem;
+}
+.subsciptionimage {
+  background-image: url(./tweet.png);
+  width: 10%;
+  height: 20%;
+  background-position: center;
+  background-size: cover;
+}
